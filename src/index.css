@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    font-family: Poppins, "sans-serif";
+}
+
+.main-shadow{
+    box-shadow: 2px 2px 5px 0px #9D20FF1A;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 11px;
+    height: 6px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 100vh;
+    background: #edf2f7;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #cbd5e0;
+    border-radius: 100vh;
+    border: 3px solid #edf2f7;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #a0aec0;
+  }
+
+@layer components{
+    .profileJudul{
+        @apply font-medium text-sm opacity-75;
+    }
+    .btn{
+        @apply h-7 hover:scale-125 cursor-pointer transition-all duration-150 ease-out;
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "history" :[
+        {
+            "id": 1,
+            "nama": "Ahmad Joni",
+            "waktu": "Hari ini, 17:00",
+            "jumlah": "50.000",
+            "pemasukan": true
+          },
+          {
+            "id": 2,
+            "nama": "John Doe",
+            "waktu": "01 April, 11:29",
+            "jumlah": "150.000",
+            "pemasukan": false
+          }
+    ],
+
+    "payment" :{
+        "in":[
+            {
+                "id": 1,
+                "nama": "Samuel",
+                "tipe": "in",
+                "jumlah": "18.000",
+                "note": "Makan Padang",
+                "deadline": "17/04",
+                "status": "Pending"
+              },
+            {
+                "id": 2,
+                "nama": "John",
+                "tipe": "in",
+                "jumlah": "20.000",
+                "note": "Futsal",
+                "deadline": "01/04",
+                "status": "Over Deadlin"
+              }
+        ],
+        "out":[
+            {
+                "id": 1,
+                "nama": "Samuel",
+                "tipe": "out",
+                "jumlah": "18.000",
+                "note": "Makan Padang",
+                "deadline": "17/04",
+                "status": "Pending"
+              },
+            {
+                "id": 2,
+                "nama": "John",
+                "tipe": "out",
+                "jumlah": "20.000",
+                "note": "Futsal",
+                "deadline": "01/04",
+                "status": "Over Deadline"
+              }
+        ]
+    }
+}
